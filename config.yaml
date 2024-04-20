@@ -118,7 +118,7 @@ absubmit:                    # The absubmit plugin lets you submit acoustic anal
   
 
 acoustid:
-  apikey: REDACTED           # Command: beet submit
+  apikey: ${{ secrets.TESTSECRET }}           # Command: beet submit
 
 chroma:                      # Turning on fingerprinting can increase the accuracy of the autotagger - especially on files with very poor metadata.
                              # The Acoustid plugin extends the autotagger to use acoustic fingerprinting to find information for arbitrary audio.
